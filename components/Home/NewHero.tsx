@@ -39,13 +39,16 @@ export default function HeroSection() {
               fontWeight="bold"
               lineHeight="1.1"
             >
-              Insurance Solutions for Your Most Valuable Assets
+              The Kingdom of God
+            </Text>
+
+            <Text fontSize={{ base: "1xl", md: "2xl" }} fontWeight="bold">
+              Humanity's Original Blueprint
             </Text>
 
             <Text fontSize="md" color="whiteAlpha.900">
-              At Dawit Insurance Agency Limited, we serve the insurance needs of
-              our customers through provision of thoughtful consultation. This
-              leads to coverage at a cost that adds value to our relationship.
+              "Therefore, since we are receiving a Kingdom that cannot be
+              shaken…" --Hebrews 12:28
             </Text>
 
             <HStack gap={4} pt={2}>
