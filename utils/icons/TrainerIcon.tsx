@@ -1,8 +1,8 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { PiChalkboardTeacherDuotone } from "react-icons/pi";
-const TrainerIcon = (props: ChakraProps) => {
+const TrainerIcon = (props: ChakraProviderProps) => {
   return <Icon as={PiChalkboardTeacherDuotone} {...props} />;
 };
 

@@ -1,9 +1,9 @@
 "use client";
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
 
-const StarIcon = (props: ChakraProps) => {
+const StarIcon = (props: ChakraProviderProps) => {
   return <Icon as={AiFillStar} {...props} />;
 };
 

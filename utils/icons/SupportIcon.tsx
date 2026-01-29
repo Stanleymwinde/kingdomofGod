@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { BiSupport } from "react-icons/bi";
 
-const SupportIcon = (props: ChakraProps) => {
+const SupportIcon = (props: ChakraProviderProps) => {
   return <Icon as={BiSupport} {...props} />;
 };
 

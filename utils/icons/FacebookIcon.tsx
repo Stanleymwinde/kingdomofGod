@@ -1,8 +1,8 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { FaFacebookF } from "react-icons/fa6";
-const FacebookIcon = (props: ChakraProps) => {
+const FacebookIcon = (props: ChakraProviderProps) => {
   return <Icon as={FaFacebookF} {...props} />;
 };
 

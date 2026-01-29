@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { FaYoutube } from "react-icons/fa";
 
-const YoutubeIcon = (props: ChakraProps) => {
+const YoutubeIcon = (props: ChakraProviderProps) => {
   return <Icon as={FaYoutube} {...props} />;
 };
 

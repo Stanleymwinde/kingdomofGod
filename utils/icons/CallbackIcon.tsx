@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { FiPhoneCall } from "react-icons/fi";
 
-const CallbackIcon = (props: ChakraProps) => {
+const CallbackIcon = (props: ChakraProviderProps) => {
   return <Icon as={FiPhoneCall} {...props} />;
 };
 

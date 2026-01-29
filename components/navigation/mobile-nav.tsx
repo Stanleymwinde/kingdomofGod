@@ -18,6 +18,7 @@ import Link from "next/link";
 
 import { navItems } from "@/utils/constants";
 import { ArrowRightIcon } from "@/utils/icons";
+import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const MobileNav = ({ color }: { color: IconProps["color"] }) => {
   const [open, setOpen] = useState(false);
@@ -93,7 +94,7 @@ const MobileNav = ({ color }: { color: IconProps["color"] }) => {
 
                   <Link href="/inquiry">
                     <Stack direction="row" align="center">
-                      <ArrowRightIcon />
+                      <MdOutlineArrowRightAlt />
                       <Button colorScheme="blue" w="100%" borderRadius="xl">
                         Request a Quote
                       </Button>

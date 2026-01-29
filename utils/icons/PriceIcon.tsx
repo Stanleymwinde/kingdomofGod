@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { IoMdPricetags } from "react-icons/io";
 
-const PriceIcon = (props: ChakraProps) => {
+const PriceIcon = (props: ChakraProviderProps) => {
   return <Icon as={IoMdPricetags} {...props} />;
 };
 

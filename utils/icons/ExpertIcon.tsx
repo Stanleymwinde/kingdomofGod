@@ -1,8 +1,8 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { GrUserExpert } from "react-icons/gr";
-const ExpertIcon = (props: ChakraProps) => {
+const ExpertIcon = (props: ChakraProviderProps) => {
   return <Icon as={GrUserExpert} {...props} />;
 };
 

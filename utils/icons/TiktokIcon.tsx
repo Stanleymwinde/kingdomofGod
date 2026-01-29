@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { FaTiktok } from "react-icons/fa6";
 
-const TiktokIcon = (props: ChakraProps) => {
+const TiktokIcon = (props: ChakraProviderProps) => {
   return <Icon as={FaTiktok} {...props} />;
 };
 

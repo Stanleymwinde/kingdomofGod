@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { IoGitNetwork } from "react-icons/io5";
 
-const NetworkIcon = (props: ChakraProps) => {
+const NetworkIcon = (props: ChakraProviderProps) => {
   return <Icon as={IoGitNetwork} {...props} />;
 };
 

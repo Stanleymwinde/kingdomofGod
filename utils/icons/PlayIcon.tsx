@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { FaPlayCircle } from "react-icons/fa";
 
-const PlayIcon = (props: ChakraProps) => {
+const PlayIcon = (props: ChakraProviderProps) => {
   return <Icon as={FaPlayCircle} {...props} />;
 };
 

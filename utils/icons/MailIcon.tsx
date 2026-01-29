@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { IoMail } from "react-icons/io5";
 
-const MailIcon = (props: ChakraProps) => {
+const MailIcon = (props: ChakraProviderProps) => {
   return <Icon as={IoMail} {...props} />;
 };
 

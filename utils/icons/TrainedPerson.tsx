@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { BsPersonCheckFill } from "react-icons/bs";
 
-const TrainedPerson = (props: ChakraProps) => {
+const TrainedPerson = (props: ChakraProviderProps) => {
   return <Icon as={BsPersonCheckFill} {...props} />;
 };
 

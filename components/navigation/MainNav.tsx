@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import MobileNav from "./mobile-nav";
+import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const MainNav = () => {
   const pathname = usePathname();
@@ -48,7 +49,7 @@ const MainNav = () => {
             fontStyle="capitalize"
           >
             Request a Quote
-            <ArrowRightIcon />{" "}
+            <MdOutlineArrowRightAlt />{" "}
           </Button>{" "}
         </Link>
 

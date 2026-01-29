@@ -1,9 +1,9 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { IoBonfire } from "react-icons/io5";
 
-const FireIcon = (props: ChakraProps) => {
+const FireIcon = (props: ChakraProviderProps) => {
   return <Icon as={IoBonfire} {...props} />;
 };
 

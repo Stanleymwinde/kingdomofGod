@@ -1,8 +1,8 @@
 "use client";
 
-import { ChakraProps, Icon } from "@chakra-ui/react";
+import { ChakraProviderProps, Icon } from "@chakra-ui/react";
 import { MdMedicalServices } from "react-icons/md";
-const SafetyIcon = (props: ChakraProps) => {
+const SafetyIcon = (props: ChakraProviderProps) => {
   return <Icon as={MdMedicalServices} {...props} />;
 };
 
