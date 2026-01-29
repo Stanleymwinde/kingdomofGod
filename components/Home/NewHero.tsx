@@ -29,7 +29,7 @@ export default function HeroSection() {
         >
           <VStack
             align="start"
-            maxW="600px"
+            maxW="700px"
             gap={6}
             color="white"
             textAlign={"left"}
@@ -39,12 +39,12 @@ export default function HeroSection() {
               fontWeight="bold"
               lineHeight="1.1"
             >
-              The Kingdom of God
+              The Kingdom of God Humanity's Original Blueprint
             </Text>
 
-            <Text fontSize={{ base: "1xl", md: "2xl" }} fontWeight="bold">
+            {/* <Text fontSize={{ base: "1xl", md: "2xl" }} fontWeight="bold">
               Humanity's Original Blueprint
-            </Text>
+            </Text> */}
 
             <Text fontSize="md" color="whiteAlpha.900">
               "Therefore, since we are receiving a Kingdom that cannot be
