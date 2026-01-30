@@ -1,3 +1,4 @@
+import { navItems } from "@/utils/constants";
 import { Button, Flex, HStack, Link, Text, VStack } from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
@@ -31,23 +32,16 @@ const NewNAv = () => {
         </HStack>
 
         <HStack gap={6} display={{ base: "none", md: "flex" }}>
-          {[
-            "Home",
-            "About Us",
-            "Our Conviction",
-            "The Kingdom",
-            "Christ The King",
-            "Contact Us",
-          ].map((item) => (
-            <Link key={item} href="#">
+          {navItems.map((item, idx) => (
+            <Link key={idx} href={item.href}>
               <Text
                 fontSize="sm"
-                fontWeight={item === "Home" ? "semibold" : "normal"}
-                borderBottom={item === "Home" ? "2px solid" : "none"}
+                fontWeight={item.label === "Home" ? "semibold" : "normal"}
+                borderBottom={item.label === "Home" ? "2px solid" : "none"}
                 borderColor="green.500"
                 pb={1}
               >
-                {item}
+                {item.label}
               </Text>
             </Link>
           ))}

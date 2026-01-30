@@ -1,52 +1,99 @@
-import { Box, Button, Flex, HStack, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, HStack, Text, VStack } from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
   return (
-    <>
-      <Box position="relative" minH="calc(100vh - 80px)">
-        <Image
-          src="/hero.jpg" // replace with city image
-          alt="Nairobi City"
-          fill
-          style={{ objectFit: "cover" }}
-        />
+    <Box position="relative" minH="calc(100vh - 80px)" overflow="hidden">
+      {/* Background Image */}
+      <Image
+        src="/hero-throne.jpg" // replace with your uploaded image
+        alt="The Kingdom of God"
+        fill
+        priority
+        style={{ objectFit: "cover" }}
+      />
 
-        <Box position="absolute" inset={0} bg="blackAlpha.600" />
+      {/* Dark + Gold Overlay */}
+      <Box
+        position="absolute"
+        inset={0}
+        bgGradient="to-b"
+        gradientFrom={"blackAlpha.700"}
+        gradientTo={"blackAlpha.800"}
+      />
 
-        <Flex
-          position="relative"
-          zIndex={1}
-          h="full"
-          align="center"
-          px={{ base: 4, md: 12 }}
-        >
-          <VStack align="start" maxW="600px" gap={6} color="white">
+      {/* Content */}
+      <Flex
+        position="relative"
+        zIndex={1}
+        h="full"
+        align="center"
+        justify="center"
+        px={{ base: 6, md: 12 }}
+        py={{ base: "12rem", md: "12rem" }}
+        textAlign="center"
+      >
+        <VStack gap={{ base: 10, md: 8 }} maxW="900px" color="white">
+          {/* Top Pill */}
+          <Box
+            px={5}
+            py={2}
+            borderRadius="full"
+            bg="blackAlpha.600"
+            border="1px solid"
+            borderColor="yellow.500"
+          >
             <Text
-              fontSize={{ base: "3xl", md: "5xl" }}
-              fontWeight="bold"
-              lineHeight="1.1"
+              fontSize="xs"
+              letterSpacing="0.25em"
+              color="yellow.400"
+              fontWeight="medium"
             >
-              Insurance Solutions for Your Most Valuable Assets
+              GLOBAL CHURCH PARADIGM SHIFT
             </Text>
+          </Box>
 
-            <Text fontSize="md" color="whiteAlpha.900">
-              At Dawit Insurance Agency Limited, we serve the insurance needs of
-              our customers through provision of thoughtful consultation. This
-              leads to coverage at a cost that adds value to our relationship.
-            </Text>
+          {/* Main Title */}
+          <Text
+            fontSize={{ base: "4xl", md: "6xl", lg: "7xl" }}
+            fontWeight="bold"
+            lineHeight="1.1"
+            color="yellow.300"
+            textTransform="uppercase"
+            fontFamily="'Playfair Display', serif"
+          >
+            The Kingdom of God
+          </Text>
 
-            <HStack gap={4} pt={2}>
-              <Button variant="outline" colorScheme="whiteAlpha">
-                Learn More
-              </Button>
-              <Button colorScheme="green">Our Covers</Button>
-            </HStack>
-          </VStack>
-        </Flex>
-      </Box>
-    </>
+          {/* Subtitle */}
+          <Text
+            fontSize={{ base: "md", md: "lg" }}
+            fontStyle="italic"
+            color="whiteAlpha.800"
+          >
+            Humanity&apos;s Original Blueprint
+          </Text>
+
+          {/* Divider */}
+          <Box w="60px" h="2px" bg="yellow.400" />
+
+          {/* Scripture */}
+          <Text
+            fontSize={{ base: "sm", md: "md" }}
+            color="yellow.200"
+            fontStyle="italic"
+            maxW="600px"
+          >
+            “Therefore, since we are receiving a Kingdom that cannot be shaken…”
+          </Text>
+
+          <Text fontSize="md" color="whiteAlpha.700">
+            — Hebrews 12:28
+          </Text>
+        </VStack>
+      </Flex>
+    </Box>
   );
 };
 

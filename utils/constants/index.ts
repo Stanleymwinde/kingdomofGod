@@ -57,18 +57,26 @@ export const navItems = [
     href: "/",
   },
   {
-    label: "About",
+    label: "About Us",
     href: "/about-us",
   },
 
   {
-    label: "Our Covers",
-    href: "/our-covers",
+    label: "Our Conviction",
+    href: "/Our-conviction",
   },
 
   {
+    label: "The Kingdom",
+    href: "/the-kingdom",
+  },
+  {
+    label: "Christ The King",
+    href: "/christ-the-king",
+  },
+  {
     label: "Contact Us",
-    href: "/contact",
+    href: "/Contact-us",
   },
 ];
 
@@ -80,9 +88,9 @@ export const contactsData = [
     link: `mailto:${CONTACT_EMAIL}`,
   },
   {
-    label: "+254712345678",
+    label: "+254727767111  / +254725766634",
     title: "NAIROBI Phone",
-    link: `tel:+254712345678`,
+    link: `tel:+254727767111`,
     icon: PhoneIcon,
   },
 
@@ -286,116 +294,89 @@ export const team = [
   },
 ];
 
-export const whyus = [
+export const FaqsData = [
   {
-    id: 1,
-    title: "Best Prices",
-    icon: PriceIcon,
-    text: "Every client is unique, and so are our travel packages. We customize your journey to meet your exact needs. ",
+    value: "a",
+    title: "What is the Kingdom of God?",
+    text: "The Kingdom of God is God’s eternal government—established before time, revealed through Jesus Christ, and advancing on earth through divine authority, not human systems.",
   },
   {
-    id: 2,
-    title: "24/7 Support",
-    text: "Our team is available around the clock to assist with your travel plans. ",
-    icon: SupportIcon,
+    value: "b",
+    title: "Who is the King of this Kingdom?",
+    text: "Jesus Christ alone is the King of Kings and Lord of Lords. He is the rightful ruler of heaven and earth and the builder of the Ekklesia.",
   },
   {
-    id: 3,
-    title: "Global Network",
-    text: "We work with a global network of airlines, hotels, and tour operators to bring you the best options. ",
-    icon: NetworkIcon,
+    value: "c",
+    title: "Is the Kingdom of God the same as a church or religion?",
+    text: "No. The Kingdom of God is not a religion, denomination, ministry, or movement. It is God’s original governing system, from which the church (Ekklesia) derives its purpose and authority.",
   },
   {
-    id: 4,
-    title: "Competitive Rates",
-    text: "Enjoy premium travel services without breaking the bank.",
-    icon: MoneyIcon,
+    value: "d",
+    title: "What is the Ekklesia?",
+    text: "The Ekklesia is the called-out legislative assembly of the Kingdom—citizens authorized by Christ to represent His government on earth.",
   },
   {
-    id: 5,
-    title: "Luxury Travel Options",
-    text: "From private jets to bespoke tours, we offer the best in luxury travel.",
-    icon: JetIcon,
+    value: "e",
+    title: "What does it mean to pledge allegiance to the Kingdom of God?",
+    text: "It means full submission, loyalty, and obedience to God’s rule above all earthly systems, ideologies, cultures, and personal ambitions.",
+  },
+  {
+    value: "f",
+    title: "What do you renounce in order to represent the Kingdom?",
+    text: "We renounce self-rule, religious traditions that replace truth, man-made systems that oppose God’s authority, and any allegiance that competes with Christ’s Lordship.",
+  },
+  {
+    value: "g",
+    title: "Is the Kingdom of God political?",
+    text: "The Kingdom of God is governmental, not political. It transcends earthly politics and operates by divine law, righteousness, justice, and truth.",
+  },
+  {
+    value: "h",
+    title: "What is divine authority?",
+    text: "Divine authority is the delegated right given by God to His Son and extended to His citizens to represent heaven’s will on earth within assigned domains.",
+  },
+  {
+    value: "i",
+    title: "How does the Kingdom of God affect daily life?",
+    text: "The Kingdom influences every area of life—identity, leadership, family, work, governance, stewardship, culture, and purpose—bringing alignment with heaven’s design.",
+  },
+  {
+    value: "j",
+    title: "Is salvation connected to the Kingdom?",
+    text: "Yes. Salvation restores humanity back to citizenship in God’s Kingdom, reconciling us to the King and restoring our original purpose.",
+  },
+  {
+    value: "k",
+    title: "What is repentance in Kingdom terms?",
+    text: "Repentance is a complete change of mind—from independence to submission—realigning one’s thinking, values, and lifestyle with Kingdom truth.",
+  },
+  {
+    value: "l",
+    title: "What is the mission of the Kingdom?",
+    text: "The mission is to reveal, establish, and advance God’s rule on earth until His will is done on earth as it is in heaven.",
+  },
+  {
+    value: "m",
+    title: "How does the Kingdom differ from worldly systems?",
+    text: "Worldly systems are driven by power, control, and self-interest. The Kingdom operates by righteousness, justice, servant leadership, and divine order.",
+  },
+  {
+    value: "n",
+    title: "Who can become a citizen of the Kingdom of God?",
+    text: "Anyone who submits to the Lordship of Jesus Christ and embraces God’s rule becomes a citizen of the Kingdom, regardless of background or status.",
+  },
+  {
+    value: "o",
+    title: "What does it mean to represent the Kingdom on earth?",
+    text: "It means living as an ambassador—reflecting the King’s character, enforcing His principles, and advancing His agenda in every sphere of influence.",
+  },
+  {
+    value: "p",
+    title: "What is the ultimate goal of the Kingdom?",
+    text: "The ultimate goal is the full restoration of God’s rule over creation, the reconciliation of humanity to the King, and the manifestation of His glory in all things.",
   },
 ];
-export const agentsAirlines = [
-  {
-    name: "Flyals",
-    logo: "flyals.webp",
-    bg: "white",
-  },
-  {
-    name: "Skyward Express",
-    logo: "skyward.png",
-    bg: "white",
-  },
-  {
-    name: "Freedom Airline",
-    logo: "freedom-airline.png",
-    bg: "#201D48",
-  },
-  {
-    name: "Safarilink",
-    logo: "safari-link.png",
-    bg: "white",
-  },
-  {
-    name: "Air Kenya",
-    logo: "airkenya.png",
-    bg: "white",
-  },
-  {
-    name: "RenegadeAir",
-    logo: "renegadeair.png",
-    bg: "white",
-  },
-  {
-    name: "FLY748",
-    logo: "fly748.png",
 
-    bg: "white",
-  },
-  {
-    name: "Uganda Airlines",
-    logo: "uganda-airlines.png",
-    bg: "white",
-  },
-  {
-    name: "Air Tanzania",
-    logo: "airtz.png",
-    bg: "white",
-  },
-  {
-    name: "Jambojet",
-    logo: "jambojet.svg",
-    bg: "white",
-  },
-  {
-    name: "Kenya Airways",
-    logo: "kenya-airways.svg",
-    bg: "#E84724",
-  },
-  {
-    name: "Lufthansa",
-    logo: "lufthansa.svg",
-    bg: "#05184E",
-  },
-  {
-    name: "Swiss",
-    logo: "swiss.svg",
-    bg: "white",
-  },
-  {
-    name: "I-FLY Air",
-    logo: "iflyair.png",
-    bg: "white",
-  },
-  {
-    name: "Qatar Airways",
-    logo: "qatar-airways.svg",
-    bg: "black",
-  },
-];
 export const renounceItems = [
   {
     icon: FiTarget,

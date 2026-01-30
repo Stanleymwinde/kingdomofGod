@@ -29,7 +29,10 @@ export default function Constitutional() {
         <Box
           position="absolute"
           inset={0}
-          bg="linear-gradient(to bottom, rgba(5,10,20,0.4), rgba(2,5,12,0.95))"
+          // bg="linear-gradient(to bottom, rgba(5,10,20,0.4), rgba(2,5,12,0.95))"
+          bgGradient={"to-b"}
+          gradientFrom={"rgba(5,10,20,0.4)"}
+          gradientTo={"rgba(2,5,12,0.95)"}
         />
         {/* Content */}
         <Flex

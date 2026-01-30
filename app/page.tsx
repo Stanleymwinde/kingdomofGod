@@ -7,15 +7,16 @@ import {
   OurIdentity,
   WhatWeRenounce,
 } from "@/components/Home";
+import Hero from "@/components/Home/Hero";
 
 export default function Home() {
   return (
     <>
-      {/* <Hero /> */}
-      <NewHero />
+      <Hero />
+      {/* <NewHero /> */}
       <HomeageDeclaration />
       <Consititution /> {/* The Foundation */}
-      <WhatWeRenounce />
+      <WhatWeRenounce /> {/* What We Renounce / Sacred Commitment */}
       <OurIdentity />
     </>
   );

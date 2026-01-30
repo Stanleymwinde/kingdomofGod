@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* Hero */}
       <Box position="relative" minH="calc(100vh - 80px)">
         <Image
-          src="/hero-throne.jpg" // replace with city image
+          src="/hero-throne.jpg"
           alt="Nairobi City"
           fill
           style={{ objectFit: "cover" }}

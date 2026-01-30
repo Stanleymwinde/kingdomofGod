@@ -106,11 +106,11 @@ const WhatWeRenounce = () => {
                         w="50px"
                         h="50px"
                         borderRadius="full"
-                        bg="rgba(239, 68, 68, 0.2)"
+                        bg="rgba(112, 88, 88, 0.2)"
                         border="1px solid"
                         borderColor="yellow.500"
                       >
-                        <Icon as={item.icon} boxSize={6} color="red.400" />
+                        <Icon as={item.icon} boxSize={6} color="yellow.400" />
                       </Flex>
 
                       <Heading as="h3" size="md" color="white">
