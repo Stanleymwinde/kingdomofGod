@@ -68,11 +68,11 @@ export const navItems = [
 
   {
     label: "The Kingdom",
-    href: "/the-kingdom",
+    href: "/Our-kingdom",
   },
   {
     label: "Christ The King",
-    href: "/christ-the-king",
+    href: "/Christ-The-King",
   },
   {
     label: "Contact Us",

@@ -22,10 +22,10 @@ const Cform = () => {
       boxShadow="lg"
       bg="white"
     >
+      Contact us
       <Heading fontSize="2xl" mb={6} color="gray.800">
-        Request a Quote
+        Get in touch with us
       </Heading>
-
       <Stack gap={4}>
         <Field.Root>
           <Field.Label fontSize="sm" fontWeight="medium" color="gray.700">

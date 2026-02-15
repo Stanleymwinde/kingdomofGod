@@ -50,7 +50,7 @@ export default function Constitutional() {
               textTransform="uppercase"
               color="yellow.300"
             >
-              One-Page Constitutional Declaration
+              Constitutional Declaration
             </Text>
 
             <Text
