@@ -11,50 +11,55 @@ import React from "react";
 const WhatSetsUsApart = () => {
   return (
     <>
-      <Box bg="blackAlpha.700" py={{ base: 16, md: 24 }}>
+      <Box bg="blackAlpha.800" py={{ base: 16, md: 24 }}>
         <Container maxW="7xl">
           <VStack gap={12}>
-            <Heading size="xl" textAlign="center" color="white">
-              What Sets Us Apart
+            <Heading
+              size="xl"
+              textAlign="center"
+              color="white"
+              letterSpacing="widest"
+            >
+              THE KINGDOM DISTINCTIVE
             </Heading>
 
             <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} gap={8}>
               {[
                 {
-                  title: "Independent & Unbiased",
-                  text: "Honest, transparent advice focused on your best interests — not commissions.",
+                  title: "Divine Government, Not Religion",
+                  text: "We do not represent another religious system. We proclaim the eternal government of God — His rule, His order, and His authority restored in humanity through Christ.",
                 },
                 {
-                  title: "Access to Top Insurers",
-                  text: "We work with Kenya’s leading insurance providers to give you competitive options in one place.",
+                  title: "Christ as Sole Builder",
+                  text: "We do not build personal ministries, empires, or brands. Jesus Christ alone builds His Ekklesia. Our role is alignment, obedience, and faithful stewardship.",
                 },
                 {
-                  title: "Fast Claims Support",
-                  text: "From notification to settlement, we ensure claims are handled professionally and fairly.",
+                  title: "Kingdom Above Systems",
+                  text: "Political powers rise and fall. Institutions shift. Cultures evolve. The Kingdom of God stands unshaken, superior to every human construct.",
                 },
                 {
-                  title: "Digital + Human Touch",
-                  text: "Reach us via WhatsApp, phone, email, or face-to-face — whatever works for you.",
+                  title: "Governed People, Not Gathered Crowds",
+                  text: "The Ekklesia is not a building or denomination. It is a governing people — called out to embody Heaven’s culture and reflect divine authority on earth.",
                 },
               ].map((item) => (
                 <Box
                   key={item.title}
-                  p={6}
+                  p={8}
                   bg="gray.900"
-                  borderRadius="xl"
+                  borderRadius="2xl"
                   border="1px solid"
                   borderColor="whiteAlpha.200"
-                  color={"yellow.400"}
                   _hover={{
-                    transform: "translateY(-4px)",
+                    transform: "translateY(-6px)",
                     borderColor: "yellow.400",
+                    boxShadow: "0 10px 30px rgba(255, 215, 0, 0.1)",
                   }}
-                  transition="all 0.3s ease"
+                  transition="all 0.4s ease"
                 >
-                  <Heading size="md" mb={3}>
+                  <Heading size="md" mb={4} color="yellow.400">
                     {item.title}
                   </Heading>
-                  <Text color="whiteAlpha.900" lineHeight="1.8">
+                  <Text color="whiteAlpha.900" lineHeight="1.9" fontSize="md">
                     {item.text}
                   </Text>
                 </Box>

@@ -19,22 +19,24 @@ const WhoWeAre = () => {
             <Heading size="xl">Who We Are</Heading>
 
             <Text lineHeight="1.9">
-              Intent Insurance Agency is an independent insurance intermediary
-              committed to making insurance simple, transparent, and truly
-              client-focused.
+              Kingdom of God is a faith-centered community committed to
+              advancing God's kingdom through service, compassion, and spiritual
+              growth. We believe in empowering individuals to live out their
+              divine purpose and make a meaningful impact in their communities.
             </Text>
 
             <Text lineHeight="1.9">
-              We represent{" "}
+              We serve{" "}
               <Text as="span" color="yellow.400" fontWeight="semibold">
-                you — not insurance companies
+                faithful individuals seeking spiritual community
               </Text>
-              . Our role is to help you compare options, understand your risks,
-              and choose cover that fits your needs and budget.
+              . Our mission is to support your spiritual journey, foster
+              meaningful connections, and help you discover and fulfill your
+              God-given calling within our kingdom-focused fellowship.
             </Text>
 
             <Text lineHeight="1.9">
-              From policy selection to claims support, we walk with you every
+              From spiritual growth to community service, we walk with you every
               step of the way.
             </Text>
           </VStack>
@@ -69,14 +71,14 @@ const WhoWeAre = () => {
             <Heading size="xl">Our Approach</Heading>
 
             <Text lineHeight="1.9">
-              At Intent Insurance Agency, you’re not just another policyholder —
-              you’re a valued partner.
+              At Kingdom of God, you're not just another member — you're a
+              valued part of our spiritual family.
             </Text>
 
             <Text lineHeight="1.9">
-              We take time to understand your risks and goals before
-              recommending insurance solutions that genuinely protect what
-              matters most.
+              We take time to understand your spiritual needs and goals before
+              recommending ways to deepen your faith and strengthen your
+              connection to God's purpose.
             </Text>
           </VStack>
         </SimpleGrid>

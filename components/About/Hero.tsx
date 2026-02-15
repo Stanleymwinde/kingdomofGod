@@ -27,13 +27,14 @@ const Hero = () => {
             </Text>
 
             <Heading size={{ base: "2xl", md: "3xl" }} lineHeight="1.1">
-              Independent Insurance Advice You Can Trust
+              Kingdom of God, GCCps..more info
             </Heading>
 
             <Text fontSize="lg" color="whiteAlpha.900" lineHeight="1.8">
-              Intent Insurance Agency is built on trust, transparency, and a
-              deep commitment to protecting what matters most to individuals,
-              families, and businesses across Kenya.
+              Kingdom of God, GCCps is dedicated to spreading the Gospel and
+              building a community rooted in faith, hope, and love. We're
+              committed to serving our congregation and community with integrity
+              and spiritual guidance.
             </Text>
 
             <HStack gap={4} pt={4}>
@@ -54,7 +55,7 @@ const Hero = () => {
                   borderColor="whiteAlpha.400"
                   _hover={{ bg: "whiteAlpha.100" }}
                 >
-                  View Our Covers
+                  View Our Devotionals
                 </Button>
               </Link>
             </HStack>

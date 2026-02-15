@@ -25,8 +25,8 @@ const Mission = () => {
             />
             <Heading size="2xl">Our Mission</Heading>
             <Text lineHeight="1.9">
-              To make insurance accessible, reliable, and stress-free by putting
-              clients first and delivering trusted professional advice.
+              To advance God's kingdom by serving our community with integrity,
+              compassion, and excellence in all that we do.
             </Text>
           </VStack>
 
@@ -39,10 +39,11 @@ const Mission = () => {
               borderRadius={"md"}
               overflow={"hidden"}
             />
-            <Heading size="2xl">Local Expertise, National Reach</Heading>
+            <Heading size="2xl">God's Kingdom and reach to humanity</Heading>
             <Text lineHeight="1.9">
-              With deep understanding of the Kenyan market, we serve clients
-              across Nairobi, Mombasa, Kisumu, Eldoret, Murang’a, and beyond.
+              We are committed to spreading the Gospel and extending God's
+              kingdom through community outreach, discipleship, and humanitarian
+              service across all nations and cultures.
             </Text>
           </VStack>
         </SimpleGrid>
