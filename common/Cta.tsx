@@ -14,13 +14,14 @@ const Cta = () => {
             gap={8}
           >
             <Stack>
-              <Heading size="lg">Ready to get insured?</Heading>
-              <Text color="black.100">
-                Get your quote in minutes and enjoy complete peace of mind.
+              <Heading size="lg">Ready to join the Kingdom of God?</Heading>
+              <Text color="black">
+                Accept Jesus Christ as your Savior and experience eternal
+                salvation and abundant life.
               </Text>
             </Stack>
             <Button size="lg" colorPalette="blackAlpha">
-              Get a Quote Now
+              Accept Jesus Christ
             </Button>
           </Stack>
         </Container>
